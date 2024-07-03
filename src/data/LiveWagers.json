@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "gameImage": "url_to_game_image_1",
+      "player1": "Player1",
+      "player2": "Player2",
+      "prize": 100,
+      "genre": "Realistic",
+      "region": "EU",
+      "type": "3vs3"
+    },
+    {
+      "id": 2,
+      "gameImage": "url_to_game_image_2",
+      "player1": "Player3",
+      "player2": "Player4",
+      "prize": 200,
+      "genre": "Fantasy",
+      "region": "NA",
+      "type": "1vs1"
+    },
+    {
+      "id": 3,
+      "gameImage": "url_to_game_image_3",
+      "player1": "Player5",
+      "player2": "Player6",
+      "prize": 150,
+      "genre": "Sci-Fi",
+      "region": "AS",
+      "type": "2vs2"
+    },
+    {
+      "id": 4,
+      "gameImage": "url_to_game_image_4",
+      "player1": "Player7",
+      "player2": "Player8",
+      "prize": 300,
+      "genre": "Fantasy",
+      "region": "EU",
+      "type": "5vs5"
+    },
+    {
+      "id": 5,
+      "gameImage": "url_to_game_image_5",
+      "player1": "Player9",
+      "player2": "Player10",
+      "prize": 80,
+      "genre": "Action",
+      "region": "NA",
+      "type": "1vs1"
+    },
+    {
+      "id": 6,
+      "gameImage": "url_to_game_image_6",
+      "player1": "Player11",
+      "player2": "Player12",
+      "prize": 120,
+      "genre": "Adventure",
+      "region": "EU",
+      "type": "3vs3"
+    },
+    {
+      "id": 7,
+      "gameImage": "url_to_game_image_7",
+      "player1": "Player13",
+      "player2": "Player14",
+      "prize": 220,
+      "genre": "Fantasy",
+      "region": "AS",
+      "type": "4vs4"
+    },
+    {
+      "id": 8,
+      "gameImage": "url_to_game_image_8",
+      "player1": "Player15",
+      "player2": "Player16",
+      "prize": 175,
+      "genre": "Sci-Fi",
+      "region": "EU",
+      "type": "2vs2"
+    },
+    {
+      "id": 9,
+      "gameImage": "url_to_game_image_9",
+      "player1": "Player17",
+      "player2": "Player18",
+      "prize": 90,
+      "genre": "Realistic",
+      "region": "NA",
+      "type": "3vs3"
+    },
+    {
+      "id": 10,
+      "gameImage": "url_to_game_image_10",
+      "player1": "Player19",
+      "player2": "Player20",
+      "prize": 110,
+      "genre": "Fantasy",
+      "region": "EU",
+      "type": "5vs5"
+    },
+    {
+      "id": 11,
+      "gameImage": "url_to_game_image_11",
+      "player1": "Player21",
+      "player2": "Player22",
+      "prize": 300,
+      "genre": "Action",
+      "region": "AS",
+      "type": "1vs1"
+    },
+    {
+      "id": 12,
+      "gameImage": "url_to_game_image_12",
+      "player1": "Player23",
+      "player2": "Player24",
+      "prize": 250,
+      "genre": "Adventure",
+      "region": "EU",
+      "type": "4vs4"
+    },
+    {
+      "id": 13,
+      "gameImage": "url_to_game_image_13",
+      "player1": "Player25",
+      "player2": "Player26",
+      "prize": 175,
+      "genre": "Sci-Fi",
+      "region": "NA",
+      "type": "2vs2"
+    },
+    {
+      "id": 14,
+      "gameImage": "url_to_game_image_14",
+      "player1": "Player27",
+      "player2": "Player28",
+      "prize": 200,
+      "genre": "Realistic",
+      "region": "EU",
+      "type": "3vs3"
+    },
+    {
+      "id": 15,
+      "gameImage": "url_to_game_image_15",
+      "player1": "Player29",
+      "player2": "Player30",
+      "prize": 320,
+      "genre": "Fantasy",
+      "region": "AS",
+      "type": "5vs5"
+    },
+    {
+      "id": 16,
+      "gameImage": "url_to_game_image_16",
+      "player1": "Player31",
+      "player2": "Player32",
+      "prize": 100,
+      "genre": "Action",
+      "region": "EU",
+      "type": "1vs1"
+    }
+  ]
+  
