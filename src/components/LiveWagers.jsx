@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./LiveWagers.css";
-import { FaTrophy, FaCoins } from "react-icons/fa";
+import { FaCoins } from "react-icons/fa";
 import wagersData from '../data/LiveWagers.json'
 
 const LiveWagers = () => {
