@@ -1,0 +1,98 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #263644;
+    padding: 1rem 2rem;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    /* Añadido para asegurarse de que el padding no afecte al ancho */
+    position: fixed;
+    /* Añadido para fijar el header en la parte superior */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* Para asegurarse de que el header esté encima de otros elementos */
+}
+
+
+.header-left,
+.header-center,
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu-button {
+    margin-left: 1rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.icon-container {
+    margin: 0 2rem;
+    position: relative;
+    gap: 10rem;
+}
+
+.icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.icon:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
+
+.auth-button {
+    margin-left: 1rem;
+    background-color: #1e2c39;
+    border: 1px solid #1e2c39;
+    padding: 0.5rem 1rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
+
+.auth-button:hover {
+    background-color: #3a4a58;
+}
+
+.more-options-button {
+    background: none;
+    border: none;
+    color: white;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .header-left,
+    .header-center,
+    .header-right {
+        margin: 0.5rem 0;
+    }
+}
