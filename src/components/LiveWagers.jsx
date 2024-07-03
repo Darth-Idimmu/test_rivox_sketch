@@ -28,7 +28,7 @@ const LiveWagers = () => {
                 </div>
               </div>
               <div className="game-info">
-                Genre: {wager.genre}, Region: {wager.region}, Type: {wager.type}
+                {wager.genre}, {wager.region}, {wager.type}
               </div>
             </div>
           ))}
