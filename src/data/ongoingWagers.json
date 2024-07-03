@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "type": "3vs3",
+      "teamSize": "2vs2",
+      "platform": "PC",
+      "region": "Asia",
+      "price": "100"
+    },
+    {
+      "id": 2,
+      "type": "2vs2",
+      "teamSize": "3vs3",
+      "platform": "Console",
+      "region": "EU",
+      "price": "75"
+    },
+    {
+      "id": 3,
+      "type": "1vs1",
+      "teamSize": "1vs1",
+      "platform": "All",
+      "region": "USA",
+      "price": "50"
+    },
+    {
+      "id": 4,
+      "type": "3vs3",
+      "teamSize": "2vs2",
+      "platform": "PC",
+      "region": "Asia",
+      "price": "90"
+    },
+    {
+      "id": 5,
+      "type": "2vs2",
+      "teamSize": "3vs3",
+      "platform": "Console",
+      "region": "EU",
+      "price": "80"
+    },
+    {
+      "id": 6,
+      "type": "1vs1",
+      "teamSize": "1vs1",
+      "platform": "All",
+      "region": "USA",
+      "price": "60"
+    },
+    {
+      "id": 7,
+      "type": "3vs3",
+      "teamSize": "2vs2",
+      "platform": "PC",
+      "region": "Asia",
+      "price": "85"
+    },
+    {
+      "id": 8,
+      "type": "2vs2",
+      "teamSize": "3vs3",
+      "platform": "Console",
+      "region": "EU",
+      "price": "70"
+    },
+    {
+      "id": 9,
+      "type": "1vs1",
+      "teamSize": "1vs1",
+      "platform": "All",
+      "region": "USA",
+      "price": "65"
+    },
+    {
+      "id": 10,
+      "type": "3vs3",
+      "teamSize": "2vs2",
+      "platform": "PC",
+      "region": "Asia",
+      "price": "95"
+    },
+    {
+      "id": 11,
+      "type": "2vs2",
+      "teamSize": "3vs3",
+      "platform": "Console",
+      "region": "EU",
+      "price": "85"
+    },
+    {
+      "id": 12,
+      "type": "1vs1",
+      "teamSize": "1vs1",
+      "platform": "All",
+      "region": "USA",
+      "price": "70"
+    },
+    {
+      "id": 13,
+      "type": "3vs3",
+      "teamSize": "2vs2",
+      "platform": "PC",
+      "region": "Asia",
+      "price": "80"
+    },
+    {
+      "id": 14,
+      "type": "2vs2",
+      "teamSize": "3vs3",
+      "platform": "Console",
+      "region": "EU",
+      "price": "75"
+    },
+    {
+      "id": 15,
+      "type": "1vs1",
+      "teamSize": "1vs1",
+      "platform": "All",
+      "region": "USA",
+      "price": "55"
+    },
+    {
+      "id": 16,
+      "type": "3vs3",
+      "teamSize": "2vs2",
+      "platform": "PC",
+      "region": "Asia",
+      "price": "60"
+    },
+    {
+      "id": 17,
+      "type": "2vs2",
+      "teamSize": "3vs3",
+      "platform": "Console",
+      "region": "EU",
+      "price": "65"
+    },
+    {
+      "id": 18,
+      "type": "1vs1",
+      "teamSize": "1vs1",
+      "platform": "All",
+      "region": "USA",
+      "price": "45"
+    },
+    {
+      "id": 19,
+      "type": "3vs3",
+      "teamSize": "2vs2",
+      "platform": "PC",
+      "region": "Asia",
+      "price": "70"
+    },
+    {
+      "id": 20,
+      "type": "2vs2",
+      "teamSize": "3vs3",
+      "platform": "Console",
+      "region": "EU",
+      "price": "55"
+    }
+  ]
+  
