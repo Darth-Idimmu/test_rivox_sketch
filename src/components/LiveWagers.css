@@ -1,0 +1,87 @@
+.live-wagers {
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.live-wagers h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.wagers-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    /* Adjust this value based on your layout */
+}
+
+.wager-card {
+    background-color: #263644;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+    text-align: left;
+}
+
+.live-icon {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: red;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+}
+
+.game-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.wager-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.players {
+    font-size: 1rem;
+}
+
+.prize {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 1rem;
+}
+
+.game-info {
+    font-size: 0.875rem;
+    color: #aaa;
+}
+
+.show-more-button {
+    background-color: #3a4a58;
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    display: block;
+    margin: 2rem auto 0 auto;
+}
+
+.show-more-button:hover {
+    background-color: #526375;
+}

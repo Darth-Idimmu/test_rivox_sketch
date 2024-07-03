@@ -5,6 +5,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #1e2c39;
   color: white;
+  padding-top: 4rem; /* Para asegurarse de que el contenido no se superponga con el header */
 }
 
 code {
