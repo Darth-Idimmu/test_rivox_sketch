@@ -46,6 +46,7 @@
     display: flex;
     align-items: center;
     gap: 0.25rem;
+    margin: 5px;
 }
 
 .game-image {

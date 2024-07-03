@@ -19,7 +19,7 @@ const OpenWagers = () => {
             <div className="price-icon">
               <FaCoins /> ${wager.price}
             </div>
-            <img src={wager.gameImage} alt="Game" className="game-image" />
+            <img src="https://random-image-pepebigotes.vercel.app/api/random-image" alt="Game" className="game-image" />
             <div className="wager-details">
               <div className="countdown">
                 <FaClock /> {wager.countdown}
