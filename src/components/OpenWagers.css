@@ -1,0 +1,148 @@
+.open-wagers {
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.open-wagers h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.wagers-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.wager-card {
+    background-color: #263644;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    /* Adjust as needed */
+}
+
+.price-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #3a4a58;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.game-image {
+    width: 100%;
+    height: 100px;
+    /* Adjust as needed */
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.wager-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.countdown {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.type {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.info-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.info-button {
+    background-color: #3a4a58;
+    border: none;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+}
+
+.view-opponent-button {
+    background-color: #3a4a58;
+    border: none;
+    color: white;
+    padding: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    width: 100%;
+}
+
+.view-opponent-button:hover {
+    background-color: #526375;
+}
+
+.show-more-button {
+    background-color: #3a4a58;
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    display: block;
+    margin: 2rem auto 0 auto;
+}
+
+.show-more-button:hover {
+    background-color: #526375;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 1500px) {
+    .wagers-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1200px) {
+    .wagers-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .wagers-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .wagers-container {
+        grid-template-columns: 1fr;
+    }
+}
