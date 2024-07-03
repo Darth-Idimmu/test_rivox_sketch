@@ -12,7 +12,7 @@
     margin-bottom: 2rem;
 }
 
-.wagers-container {
+.ongoing-wagers-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
@@ -21,33 +21,36 @@
     max-width: 1500px;
 }
 
-.wager-card {
+.ongoing-wager-card {
     background-color: #263644;
     padding: 1rem;
     border-radius: 0.5rem;
+    position: relative;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 150px;
 }
 
-.wager-details {
+.ongoing-top-row {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
-.type {
+.ongoing-type {
     font-size: 1.25rem;
-    margin-bottom: 0.5rem;
 }
 
-.info-buttons {
+.ongoing-info-buttons {
     display: flex;
     gap: 0.5rem;
     margin-bottom: 1rem;
 }
 
-.info-button {
+.ongoing-info-button {
     background-color: #3a4a58;
     border: none;
     color: white;
@@ -56,26 +59,25 @@
     border-radius: 0.25rem;
 }
 
-.price {
-    margin-top: auto;
+.ongoing-price {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-.price svg {
+.ongoing-price svg {
     margin-right: 0.5rem;
+}
+
+.ongoing-price strong {
     font-size: 1rem;
 }
 
-.price strong {
-    font-size: 1rem;
-}
-
-.price span {
+.ongoing-price span {
     font-size: 0.75rem;
 }
 
-.show-more-button {
+.ongoing-show-more-button {
     background-color: #646cff;
     color: white;
     border: none;
@@ -87,6 +89,20 @@
     margin-top: 1rem;
 }
 
-.show-more-button:hover {
+.ongoing-show-more-button:hover {
     background-color: #535bf2;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 1500px) {
+    .ongoing-wagers-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1200px) {
+    .ongoing-wagers-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
