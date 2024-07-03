@@ -17,18 +17,20 @@ const LiveWagers = () => {
         {wagersData.slice(0, visibleWagers).map((wager) => (
           <div key={wager.id} className="live-wager-card">
             <div className="live-icon">LIVE</div>
-            <img src={wager.gameImage} alt="Game" className="live-game-image" />
+            <img src="https://random-image-pepebigotes.vercel.app/api/random-image" alt="Game" className="live-game-image" />
             <div className="live-wager-details">
               <div className="live-players">
-                {wager.player1} vs {wager.player2}
+                <strong>{wager.player1}</strong> vs <strong>{wager.player2}</strong>
               </div>
               <div className="live-prize">
+                <strong>
                 <FaCoins /> ${wager.prize} <br />
                 <span>Prize</span>
+                </strong>
               </div>
             </div>
             <div className="live-game-info">
-              {wager.genre}, {wager.region}, {wager.type}
+              <strong>{wager.genre}, {wager.region}, {wager.type}</strong>
             </div>
           </div>
         ))}
