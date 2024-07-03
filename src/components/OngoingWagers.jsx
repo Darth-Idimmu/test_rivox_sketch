@@ -18,17 +18,17 @@ const OngoingWagers = () => {
           <div key={wager.id} className="ongoing-wager-card">
             <div className="ongoing-wager-details">
               <div className="ongoing-top-row">
-                <div className="ongoing-type">{wager.type}</div>
+                <div className="ongoing-type"><strong>{wager.type}</strong></div>
                 <div className="ongoing-price">
                   <FaCoins /> <strong>${wager.price}</strong>
                   <br />
-                  <span>PRIZE</span>
+                  <span><strong>PRIZE</strong></span>
                 </div>
               </div>
               <div className="ongoing-info-buttons">
-                <button className="ongoing-info-button">Team Size: {wager.teamSize}</button>
-                <button className="ongoing-info-button">Platform: {wager.platform}</button>
-                <button className="ongoing-info-button">Region: {wager.region}</button>
+                <button className="ongoing-info-button"><strong>{wager.teamSize}</strong></button>
+                <button className="ongoing-info-button"><strong>{wager.platform}</strong></button>
+                <button className="ongoing-info-button"><strong>{wager.region}</strong></button>
               </div>
             </div>
           </div>
