@@ -1,38 +1,41 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './OngoingWagers.css';
 import { FaCoins } from 'react-icons/fa';
 import ongoingWagersData from '../data/ongoingWagers.json';
 
 const OngoingWagers = () => {
-  const [visibleRows, setVisibleRows] = useState(2); // Estado para controlar el número de filas visibles
+  const [visibleRows, setVisibleRows] = useState(3);
 
   const showMoreRows = () => {
-    setVisibleRows(visibleRows + 2); // Aumentar el número de filas visibles en 2 al hacer clic en "Show More"
+    setVisibleRows(prevVisibleRows => prevVisibleRows + 2);
   };
 
   return (
     <div className="ongoing-wagers">
       <h2>Ongoing Wagers</h2>
-      <div className="wagers-container">
-        {ongoingWagersData.slice(0, visibleRows).map((wager) => ( // Mostrar solo las filas visibles
-          <div key={wager.id} className="wager-card">
-            <div className="wager-details">
-              <div className="type">{wager.type}</div>
-              <div className="info-buttons">
-                <button className="info-button">Team Size: {wager.teamSize}</button>
-                <button className="info-button">Platform: {wager.platform}</button>
-                <button className="info-button">Region: {wager.region}</button>
+      <div className="ongoing-wagers-container">
+        {ongoingWagersData.slice(0, visibleRows * 2).map((wager) => (
+          <div key={wager.id} className="ongoing-wager-card">
+            <div className="ongoing-wager-details">
+              <div className="ongoing-top-row">
+                <div className="ongoing-type">{wager.type}</div>
+                <div className="ongoing-price">
+                  <FaCoins /> <strong>${wager.price}</strong>
+                  <br />
+                  <span>PRIZE</span>
+                </div>
               </div>
-              <div className="price">
-                <FaCoins /> <strong>${wager.price}</strong> <br />
-                <span>PRIZE</span>
+              <div className="ongoing-info-buttons">
+                <button className="ongoing-info-button">Team Size: {wager.teamSize}</button>
+                <button className="ongoing-info-button">Platform: {wager.platform}</button>
+                <button className="ongoing-info-button">Region: {wager.region}</button>
               </div>
             </div>
           </div>
         ))}
       </div>
-      {visibleRows < ongoingWagersData.length && ( // Mostrar el botón "Show More" solo si hay más filas para mostrar
-        <button className="show-more-button" onClick={showMoreRows}>
+      {visibleRows * 2 < ongoingWagersData.length && (
+        <button className="ongoing-show-more-button" onClick={showMoreRows}>
           Show More
         </button>
       )}
