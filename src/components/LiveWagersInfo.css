@@ -1,0 +1,64 @@
+/* src/components/LiveWagersInfo.css */
+
+.live-wagers-info {
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+    padding-top: 70px;
+}
+
+.live-wagers-info .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.live-wagers-info .subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.live-wagers-info .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.live-wagers-info .info-button {
+    background-color: #3a4a58;
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.live-wagers-info .info-button.register-now {
+    background-color: #646cff;
+}
+
+.live-wagers-info .info-button:hover {
+    background-color: #526375;
+}
+
+.live-wagers-info .info-button.register-now:hover {
+    background-color: #747bff;
+}
+
+.live-wagers-info .stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.25rem;
+}
+
+.live-wagers-info .stat {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
