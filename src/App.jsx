@@ -1,9 +1,9 @@
 import './App.css';
-import Header from './components/Header';// Nuevo componente
+import Header from './components/Header';
 import LiveWagers from './components/LiveWagers';
 import OpenWagers from './components/OpenWagers';
 import OngoingWagers from './components/OngoingWagers';
-import Footer from './components/Footer'; // Nuevo componente
+import Footer from './components/Footer';
 
 const App = () => {
   return (

@@ -22,9 +22,9 @@ const OpenWagers = () => {
             <img src="https://random-image-pepebigotes.vercel.app/api/random-image" alt="Game" className="game-image" />
             <div className="wager-details">
               <div className="countdown">
-                <FaClock /> {wager.countdown}
+                <strong><FaClock /> {wager.countdown}</strong>
               </div>
-              <div className="type">{wager.type}</div>
+              <div className="type"><strong> {wager.type}</strong></div>
               <div className="info-buttons">
                 <button className="info-button">{wager.region}</button>
                 <button className="info-button">{wager.platform}</button>

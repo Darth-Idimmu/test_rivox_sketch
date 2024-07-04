@@ -21,13 +21,14 @@ const LiveWagers = () => {
             <div className="live-wager-details">
               <div className="live-players">
                 <strong>{wager.player1}</strong> vs <strong>{wager.player2}</strong>
-              </div>
-              <div className="live-prize">
+                <div className="live-prize">
                 <strong>
                 <FaCoins /> ${wager.prize} <br />
                 <span>Prize</span>
                 </strong>
               </div>
+              </div>
+              
             </div>
             <div className="live-game-info">
               <strong>{wager.genre}, {wager.region}, {wager.type}</strong>

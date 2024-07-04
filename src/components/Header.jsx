@@ -1,4 +1,3 @@
-import React from "react";
 import { FaHome, FaGamepad, FaTrophy, FaShoppingBag } from "react-icons/fa";
 import "./Header.css";
 
