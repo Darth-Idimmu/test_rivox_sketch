@@ -1,9 +1,10 @@
+/* Header.css */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #263644;
-    padding: 2rem 2rem;
+    padding: 2rem;
     color: white;
     width: 100%;
     box-sizing: border-box;
@@ -18,46 +19,66 @@
 .header-right {
     display: flex;
     align-items: center;
-    box-sizing: border-box;
-    justify-content: center;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+.header-left .logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
-.menu-button {
-    margin-left: 1rem;
+.header-left .logo {
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.menu-button,
+.icon-button {
     background: none;
     border: none;
     color: white;
-    cursor: pointer;
-}
-
-.icon-container {
-    margin: 0 2rem;
-    position: relative;
-    gap: 10rem;
-}
-
-.icon {
     font-size: 1.5rem;
     cursor: pointer;
+    margin-left: 1rem;
 }
 
-.icon:hover::after {
-    content: attr(title);
+.icon-button:hover .icon,
+.more-options-button:hover .icon {
+    color: #646cff;
+}
+
+.modal {
     position: absolute;
-    bottom: -1.5rem;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #333;
+    top: 100%;
+    background-color: #263644;
     color: white;
-    padding: 0.25rem;
-    border-radius: 0.25rem;
-    font-size: 0.75rem;
-    white-space: nowrap;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.left-menu-modal {
+    left: 1rem;
+}
+
+.right-menu-modal {
+    right: 1rem;
+}
+
+.modal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.modal ul li {
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+.modal ul li:hover {
+    color: #646cff;
 }
 
 .auth-button {
