@@ -34,15 +34,15 @@
 }
 
 .live-icon {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    background-color: red;
-    color: white;
-    padding: 0.25rem 0.5rem;
-    border-radius: 0.25rem;
-    font-size: 0.75rem;
-    margin: 5px;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: red;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  margin: 5px;
 }
 
 .live-game-image {
@@ -72,15 +72,15 @@
 }
 
 .live-show-more-button {
-    background-color: #646cff;
-    color: white;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 1rem;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
 }
 
 .live-show-more-button:hover {
